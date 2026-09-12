@@ -1,26 +1,23 @@
+*{
+box-sizing:border-box;
+}
+
+
 body{
 
 margin:0;
-height:100vh;
 
-display:flex;
-justify-content:center;
-align-items:center;
+font-family:
+Georgia,serif;
 
 background:
 linear-gradient(
 135deg,
-#f8dddd,
-#fff5f5
+#fff5f5,
+#f3d4d4
 );
 
-font-family:serif;
-
-}
-
-
-
-.container{
+color:#6b4148;
 
 text-align:center;
 
@@ -28,129 +25,144 @@ text-align:center;
 
 
 
-#open{
+.opening{
 
-padding:15px 30px;
-
-border:none;
-
-background:#b47b82;
-
-color:white;
-
-border-radius:30px;
-
-font-size:18px;
-
-cursor:pointer;
-
-}
-
-
-
-.book{
-
-width:700px;
-height:450px;
+height:100vh;
 
 display:flex;
 
-perspective:2000px;
+flex-direction:column;
 
-margin-top:30px;
+justify-content:center;
 
-}
-
-
-
-.page{
-
-width:50%;
-height:100%;
-
-background:#fff4f3;
-
-border:1px solid #d9b4a8;
-
-padding:30px;
-
-box-sizing:border-box;
-
-
-box-shadow:
-0 20px 40px rgba(0,0,0,.2);
-
-transform-origin:left;
-
+align-items:center;
 
 }
 
 
 
-.cover{
+.opening h1{
 
-transform-origin:right;
-
-transition:2s;
-
-}
-
-
-
-.cover img{
-
-width:220px;
-
-border-radius:50%;
-
-}
-
-
-
-h1{
-
-color:#a56b72;
-
-font-size:45px;
+font-size:55px;
 
 font-style:italic;
 
-}
-
-
-
-.open .cover{
-
-transform:
-rotateY(-150deg);
+color:#a56c75;
 
 }
 
 
 
-.date{
+button,
+.button{
 
-margin-top:30px;
 
-line-height:2;
+background:#a56c75;
+
+color:white;
+
+padding:15px 35px;
+
+border-radius:40px;
+
+border:none;
+
+text-decoration:none;
+
+cursor:pointer;
+
 
 }
 
 
 
-@media(max-width:700px){
+section{
 
-.book{
-
-width:95vw;
-height:350px;
+padding:60px 20px;
 
 }
+
+
+
+.couple{
+
+
+width:280px;
+
+height:280px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:
+8px solid white;
+
+box-shadow:
+0 20px 40px #0003;
+
+
+}
+
 
 
 h1{
 
-font-size:30px;
+font-size:45px;
+
+color:#a56c75;
+
+}
+
+
+
+span{
+
+color:#d19b62;
+
+}
+
+
+
+.card{
+
+margin:20px;
+
+background:white;
+
+border-radius:30px;
+
+padding:30px;
+
+box-shadow:
+0 10px 30px #0002;
+
+}
+
+
+
+#countdown{
+
+font-size:35px;
+
+}
+
+
+
+@media(max-width:600px){
+
+.opening h1{
+
+font-size:40px;
+
+}
+
+
+.couple{
+
+width:200px;
+
+height:200px;
 
 }
 

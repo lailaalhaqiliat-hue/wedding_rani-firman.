@@ -1,89 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
+
 <head>
-<title>Wedding Invitation</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Wedding Rani & Firman</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-<div class="container">
 
-<button id="open">
-Buka Undangan 💌
-</button>
+<div class="opening">
 
-
-<div class="book" id="book">
-
-
-<div class="page cover">
-
-<img src="assets/couple.png">
+<h2>The Wedding Of</h2>
 
 <h1>
 Rani & Firman
 </h1>
 
 <p>
-The Wedding Of
-</p>
-
-</div>
-
-
-
-<div class="page">
-
-<h2>
-Assalamu'alaikum
-</h2>
-
-<p>
-Dengan memohon rahmat Allah SWT,
-kami mengundang Bapak/Ibu/Saudara/i
-untuk hadir pada acara pernikahan kami.
+Kepada Yth.
+<br>
+Bapak/Ibu/Saudara/i
 </p>
 
 
-<h1>
-Sekar Rani
-<br>
-&
-<br>
-Zulfirman Silaen
-</h1>
-
-
-<div class="date">
-
-Akad Nikah<br>
-Minggu, 11 Oktober 2026<br>
-10.00 WIB
-
-<br><br>
-
-Resepsi<br>
-09.00 - 18.00 WIB
-
-</div>
+<button onclick="openInvite()">
+💌 Buka Undangan
+</button>
 
 
 </div>
 
 
-</div>
-
-
-</div>
 
 
 <audio id="music" loop>
+
 <source src="assets/music.mp3">
+
 </audio>
+
+
+
+
+
+<section id="home">
+
+
+<img src="assets/couple.png"
+class="couple">
+
+
+<h1>
+Rani
+<span>&</span>
+Firman
+</h1>
+
+
+<p>
+Minggu, 11 Oktober 2026
+</p>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>
+Assalamu'alaikum Warahmatullahi Wabarakatuh
+</h2>
+
+
+<p>
+Dengan memohon rahmat dan ridho Allah SWT,
+kami bermaksud mengundang Bapak/Ibu/Saudara/i
+untuk hadir dalam acara pernikahan kami.
+</p>
+
+
+</section>
+
+
+
+
+
+<section class="card">
+
+
+<h2>
+Akad Nikah
+</h2>
+
+
+<p>
+📅 Minggu, 11 Oktober 2026
+</p>
+
+<p>
+⏰ 10.00 WIB
+</p>
+
+
+
+<h2>
+Resepsi
+</h2>
+
+
+<p>
+⏰ 09.00 - 18.00 WIB
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<h2>
+Countdown
+</h2>
+
+<h1 id="countdown">
+
+</h1>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<h2>
+Lokasi Acara
+</h2>
+
+
+<p>
+Sidoharjo-1 Pasar Miring
+<br>
+Kabupaten Deli Serdang
+</p>
+
+
+
+<a class="button"
+href="https://maps.google.com">
+
+Buka Maps
+
+</a>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<h2>
+RSVP
+
+</h2>
+
+
+<a class="button"
+href="https://wa.me/628000000000">
+
+Konfirmasi Kehadiran
+
+</a>
+
+
+</section>
+
+
 
 
 <script src="script.js"></script>
 
+
 </body>
+
 </html>

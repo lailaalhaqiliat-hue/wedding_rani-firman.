@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wedding Invitation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<button id="open">
+Buka Undangan 💌
+</button>
+
+
+<div class="book" id="book">
+
+
+<div class="page cover">
+
+<img src="assets/couple.png">
+
+<h1>
+Rani & Firman
+</h1>
+
+<p>
+The Wedding Of
+</p>
+
+</div>
+
+
+
+<div class="page">
+
+<h2>
+Assalamu'alaikum
+</h2>
+
+<p>
+Dengan memohon rahmat Allah SWT,
+kami mengundang Bapak/Ibu/Saudara/i
+untuk hadir pada acara pernikahan kami.
+</p>
+
+
+<h1>
+Sekar Rani
+<br>
+&
+<br>
+Zulfirman Silaen
+</h1>
+
+
+<div class="date">
+
+Akad Nikah<br>
+Minggu, 11 Oktober 2026<br>
+10.00 WIB
+
+<br><br>
+
+Resepsi<br>
+09.00 - 18.00 WIB
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<audio id="music" loop>
+<source src="assets/music.mp3">
+</audio>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

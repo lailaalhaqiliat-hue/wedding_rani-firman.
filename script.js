@@ -1,26 +1,44 @@
-const button =
-document.getElementById("open");
+function openInvite(){
+
+document.querySelector(".opening")
+.style.display="none";
 
 
-const book =
-document.getElementById("book");
-
-
-const music =
-document.getElementById("music");
-
-
-
-button.onclick=function(){
-
-
-book.classList.add("open");
-
-
-music.play();
-
-
-button.style.display="none";
-
+document.getElementById("music")
+.play();
 
 }
+
+
+
+
+let target =
+new Date("October 11, 2026 10:00:00")
+.getTime();
+
+
+
+setInterval(()=>{
+
+
+let now =
+new Date().getTime();
+
+
+let distance =
+target-now;
+
+
+let day =
+Math.floor(
+distance/(1000*60*60*24)
+);
+
+
+
+document.getElementById("countdown")
+.innerHTML =
+day+" Hari Lagi";
+
+
+},1000);
